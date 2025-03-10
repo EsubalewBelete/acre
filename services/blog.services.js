@@ -1,15 +1,13 @@
-const {Blog} = require('../Model');
-const createBlog = async(body) => {
-    
-        await Blog.create(body);
-        
-      
-}
+const Blog = require('../Model/blogModel.js');
 
-const getBlog = async() => {
-    const blog = await Blog.find({});
-    
-}
+const createBlog = async (body) => {
+    await Blog.create(body);
+};
+
+const getBlog = async () => {
+    const blogs = await Blog.find({});
+    return blogs;
+};
 
 module.exports = {
     createBlog,
