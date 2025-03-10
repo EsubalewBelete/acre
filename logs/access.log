@@ -1,0 +1,2 @@
+ GET /api/blogs 200 212.681 ms PostmanRuntime/7.43.0
+ GET /api/blogs 200 235.774 ms PostmanRuntime/7.43.0

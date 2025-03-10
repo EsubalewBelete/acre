@@ -1,0 +1,1 @@
+module.exports.BlogController = require('./BlogController.js');

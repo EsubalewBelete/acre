@@ -1,0 +1,1 @@
+module.exports.blogservices = require('./blog.services.js');
